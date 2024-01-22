@@ -38,20 +38,20 @@ namespace Training_Day_9_
         }
         
     }
-    public class Program
-    {
-        static Q2 obj = new Q2();
-        public static void Main(String[] args)
-        {
-            List<int> resultArray = obj.removeDuplicate();
+    //public class Program
+    //{
+    //    static Q2 obj = new Q2();
+    //    public static void Main(String[] args)
+    //    {
+    //        List<int> resultArray = obj.removeDuplicate();
 
-            foreach (var item in resultArray)
-            {
-                Console.Write($"{item} ");
-            }
+    //        foreach (var item in resultArray)
+    //        {
+    //            Console.Write($"{item} ");
+    //        }
 
-            Console.ReadLine();
-        }
-    }
+    //        Console.ReadLine();
+    //    }
+    //}
 }
 
