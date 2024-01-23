@@ -29,17 +29,17 @@ namespace Training_Day_9_
 			return newString;
 		}
 	}
-	public class Program
-	{
+	//public class Program
+	//{
 		
-		public static void Main(String[] args)
-		{
-            Q7 obj = new Q7();
-            string input = "Hello I am Anand";
-            string output = obj.reverseEachWord(input);
-			Console.WriteLine(output);
-        }
+	//	public static void Main(String[] args)
+	//	{
+ //           Q7 obj = new Q7();
+ //           string input = "Hello I am Anand";
+ //           string output = obj.reverseEachWord(input);
+	//		Console.WriteLine(output);
+ //       }
 		
-	}
+	//}
 }
 
