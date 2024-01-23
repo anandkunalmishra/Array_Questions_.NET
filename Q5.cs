@@ -15,15 +15,15 @@ namespace Training_Day_9_
 			}
 		}
 	}
-	public class Program
-	{
-		static Q5 obj = new Q5();
-		public static int num = 8;
-		public static void Main(String[] args)
-		{
-			obj.printPattern(num);
+	//public class Program
+	//{
+	//	static Q5 obj = new Q5();
+	//	public static int num = 8;
+	//	public static void Main(String[] args)
+	//	{
+	//		obj.printPattern(num);
 
-		}
-	}
+	//	}
+	//}
 }
 
