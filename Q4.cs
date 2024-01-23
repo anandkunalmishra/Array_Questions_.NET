@@ -18,17 +18,15 @@ namespace Training_Day_9_
             Console.WriteLine($"The min value is {min}");
         }
 	}
-	public class Program
-	{
-		static Q4 obj = new Q4();
-		public static void Main(String[] args)
-		{
-			int[] arr = { 1, 4, 6, 7, 2, 5 };
-            obj.minmax(arr);
-            Console.ReadLine();
-        }
-
-		
-	}
+	//public class Program
+	//{
+	//	static Q4 obj = new Q4();
+	//	public static void Main(String[] args)
+	//	{
+	//		int[] arr = { 1, 4, 6, 7, 2, 5 };
+ //           obj.minmax(arr);
+ //           Console.ReadLine();
+ //       }
+ //   }
 }
 
