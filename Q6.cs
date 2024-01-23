@@ -22,14 +22,14 @@ namespace Training_Day_9_
 			}
 		}
 	}
-	public class Program
-	{
-		static Q6 obj = new Q6();
-		public static void Main(String[] args)
-		{
-			int num = 8;
-			obj.printPattern(num);
-		}
-	}
+	//public class Program
+	//{
+	//	static Q6 obj = new Q6();
+	//	public static void Main(String[] args)
+	//	{
+	//		int num = 8;
+	//		obj.printPattern(num);
+	//	}
+	//}
 }
 
