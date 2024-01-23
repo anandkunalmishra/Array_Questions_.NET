@@ -18,24 +18,24 @@ namespace Training_Day_9_
             }
         }
     }
-    public class Problem
-    {
-        public static void Main(String[] args)
-        {
-            Q3 obj = new Q3();
-            obj.freqCount();
+    //public class Problem
+    //{
+    //    public static void Main(String[] args)
+    //    {
+    //        Q3 obj = new Q3();
+    //        obj.freqCount();
 
-            for(int i = 0; i < obj.arr.Length; i++)
-            {
-                if (obj.freq[obj.arr[i]] >= 1)
-                {
-                    Console.WriteLine($"The frequency of number {obj.arr[i]} is {obj.freq[obj.arr[i]]}");
-                    obj.freq[obj.arr[i]] = -1;
-                }
-            }
+    //        for(int i = 0; i < obj.arr.Length; i++)
+    //        {
+    //            if (obj.freq[obj.arr[i]] >= 1)
+    //            {
+    //                Console.WriteLine($"The frequency of number {obj.arr[i]} is {obj.freq[obj.arr[i]]}");
+    //                obj.freq[obj.arr[i]] = -1;
+    //            }
+    //        }
 
-            Console.ReadLine();
-        }
-    }
+    //        Console.ReadLine();
+    //    }
+    //}
 }
 
