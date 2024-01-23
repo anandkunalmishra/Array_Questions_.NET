@@ -15,19 +15,19 @@ namespace Training_Day_9_
 			return sum;
 		}
 	}
-	public class Program
-	{
-		public static void Main()
-		{
-			Q8 obj = new Q8();
-			int num = 1234567898;
-			int result = obj.sumEachDigit(num);
+	//public class Program
+	//{
+	//	public static void Main()
+	//	{
+	//		Q8 obj = new Q8();
+	//		int num = 1234567898;
+	//		int result = obj.sumEachDigit(num);
 
-			Console.WriteLine($"The sum of each digit of {num} is {result}");
+	//		Console.WriteLine($"The sum of each digit of {num} is {result}");
 
-			Console.ReadLine();
+	//		Console.ReadLine();
 
-		}
-	}
+	//	}
+	//}
 }
 
